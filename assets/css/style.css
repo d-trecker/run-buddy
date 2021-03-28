@@ -16,8 +16,8 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: -webkit-sticky;
     position: sticky;
+    position: -webkit-sticky;
     top: 0;
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
@@ -100,6 +100,8 @@ header nav ul li a:hover {
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
+      background-attachment: fixed;
+      background-position: 80%;
   }
 
   .hero-cta {
